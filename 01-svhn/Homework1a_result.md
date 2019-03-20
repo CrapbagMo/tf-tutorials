@@ -19,6 +19,7 @@ Baseline: softmax, l2 regularization acc = 97.0%
 
 - #### Q3: Lp pooling 
   - Change all pooling layers to [Lp pooling](https://www.computer.org/csdl/proceedings/icpr/2012/2216/00/06460867.pdf)
+    <img src="./images/upload.png" width="500px"/>
   
    * acc=92.3%(p=4)
 - #### Q4: Regularization
