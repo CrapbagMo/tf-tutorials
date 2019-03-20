@@ -110,3 +110,9 @@ Baseline: softmax, l2 regularization acc = 97.0%
 |(mixup)73257|0.942
 |(mixup)30000|0.924
 |(mixup)10000|0.900
+
+
+## Tips
+- minibatch size
+- augmentation
+- control experiment
