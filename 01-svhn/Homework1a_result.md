@@ -1,6 +1,6 @@
 # Homework1
 
-Baseline: softmax, l2 regularization acc = 96.9%
+Baseline: softmax, l2 regularization acc = 97.0%
 
 - #### Q1: Finding alternatives of softmax
 
