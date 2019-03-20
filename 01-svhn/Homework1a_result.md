@@ -99,7 +99,7 @@ Baseline: softmax, l2 regularization acc = 97.0%
 |affine|73527|**0.954**| points deviation (-4, 4)
 ||30000|**0.942**|
 ||10000|**0.911**|
-|salt and pepper|73257|0.934| portion -0.05%
+|salt and pepper|73257|0.934| portion 0.05%
 ||30000|0.911
 ||10000|0.860
 
@@ -116,5 +116,5 @@ Baseline: softmax, l2 regularization acc = 97.0%
 
 ## Tips
 - minibatch size
-- augmentation
 - control experiment
+- augmentation
