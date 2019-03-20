@@ -88,18 +88,18 @@ Baseline: softmax, l2 regularization acc = 97.0%
 |C-10000|**0.896**|
 
 - #### Q3: How augmentation helps when training dataset is small?
-|augmentation|dataset size| result
-|:---:|:---:|:---: |
+|augmentation|dataset size| result|comment
+|:---:|:---:|:---: |:---:|
 |none |73257|0.945|
 |none |30000|0.928
 |none |10000|0.896
-|color inversion|73257|0.943
+|color inversion|73257|0.943|each channel independently
 ||30000|0.928
 ||10000|0.903|
-|affine|73527|**0.954**|
+|affine|73527|**0.954**| points deviation (-4, 4)
 ||30000|**0.942**|
 ||10000|**0.911**|
-|salt and pepper|73257|0.934|
+|salt and pepper|73257|0.934| portion -0.05%
 ||30000|0.911
 ||10000|0.860
 
