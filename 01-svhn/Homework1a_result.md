@@ -66,7 +66,7 @@ Baseline: softmax, l2 regularization acc = 97.0%
 |:---:|:---:|
 |(Q1.a)73257|0.945
 |A-60105|0.913|
-|B-55974|0.921|
+|B-52283|0.921|
 |C-55974|**0.936**|
 
 - Rerun the classification task with 30000 images from Dataset A,  Dataset B and Dataset C respectively.
